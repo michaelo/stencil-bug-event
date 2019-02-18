@@ -2,7 +2,7 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'my-bar',
-  shadow: true
+  shadow: true // Doesn't matter
 })
 export class Bar {
   render() {

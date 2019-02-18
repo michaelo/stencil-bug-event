@@ -8,8 +8,14 @@
 
 </head>
 <body>
-
+  <h2>Initial render with first element (bar: 1) visible</h2>
+  <p>Clicking on the element below ("bar: &lt;n&gt;") is expected to call console.log. But if you toggle to "bar: 2", then the callback function is not called.</p>
   <my-foo></my-foo>
+
+  <h2>Initial render with second element (bar: 2) visible</h2>
+  <p>Clicking on the element below ("bar: &lt;n&gt;") is expected to call console.log. But if you toggle twice (back to "bar: 2"),
+    then the callback function is no longer called.</p>
+  <my-foo toggle="false"></my-foo>
 
 </body>
 </html>
